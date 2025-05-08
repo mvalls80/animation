@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7wmx0ngpbgx6"]
+
+[ext_resource type="Texture2D" uid="uid://ywqa0xcsf674" path="res://mario png.png" id="1_f50pn"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.154)
+texture = ExtResource("1_f50pn")
